@@ -3044,18 +3044,6 @@ forward OnTrailerUpdate(playerid, vehicleid);
 /// </returns>
 forward OnVehicleSirenStateChange(playerid, vehicleid, newstate);
 
-/// <summary>This callback is called when a player finishes downloading custom models. For more information on how to add custom models to your server, see <a href="http://forum.sa-mp.com/showthread.php?t=644105">the release thread</a> and <a href="http://forum.sa-mp.com/showthread.php?t=644123">this tutorial</a>.</summary>
-/// <param name="playerid">The ID of the player that finished downloading custom models</param>
-/// <param name="virtualworld">The ID of the virtual world the player finished downloading custom models for</param>
-/// <seealso name="OnPlayerConnect"/>
-/// <seealso name="OnPlayerDisconnect"/>
-/// <seealso name="OnIncomingConnection"/>
-/// <remarks>This callback was added in <b>SA-MP 0.3DL</b> and will not work in earlier versions!</remarks>
-/// <remarks>This callback is called every time a player changes virtual worlds, even if there are no custom models present in that world.</remarks>
-/// <returns>This callback does not handle returns.</returns>
-forward OnPlayerFinishedDownloading(playerid, virtualworld);
-forward OnPlayerRequestDownload(playerid, type, crc);
-
 /// <summary>Called when a player double-clicks on a player on the scoreboard.</summary>
 /// <param name="playerid">The ID of the player that clicked on a player on the scoreboard</param>
 /// <param name="clickedplayerid">The ID of the player that was clicked on</param>

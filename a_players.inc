@@ -480,8 +480,6 @@ native SetPlayerSkin(playerid, skinid);
 /// <returns>The skin id (<b><c>0</c></b> if invalid).</returns>
 native GetPlayerSkin(playerid);
 
-native GetPlayerCustomSkin(playerid);
-
 /// <summary>Give a player a weapon with a specified amount of ammo.</summary>
 /// <param name="playerid">The ID of the player to give a weapon to</param>
 /// <param name="weaponid">The ID of the weapon to give to the player</param>
